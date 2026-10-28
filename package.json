@@ -1,0 +1,26 @@
+{
+  "name": "cortico-world-web",
+  "author": "Kaiser",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cortico World: gives the pet a direct channel to the web — fetch pages and APIs as text, so it reads a whole feed in one call instead of a dozen screenshots.",
+  "license": "AGPL-3.0-or-later",
+  "keywords": [
+    "cortico-world",
+    "cortico",
+    "web",
+    "fetch",
+    "bilibili"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "cortico": {
+    "kind": "world",
+    "api": 6
+  }
+}
